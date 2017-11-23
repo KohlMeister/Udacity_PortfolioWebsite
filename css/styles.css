@@ -1,0 +1,129 @@
+/*
+ *
+ * Defaults
+ *
+ */
+
+body, html {
+  margin: auto;
+  padding: 2px;
+  width: 98%;
+  height: 100%;
+  background-color: #c8b39a;
+}
+
+h1, h2, h3, h4, p {
+  padding: 1px;
+  margin: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*
+ *
+ * Colors
+ *
+ */
+
+.darkgray {
+  color: #2f363c;
+}
+
+.darkred {
+  color: #692f2b;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  text-align: right;
+  border-bottom: 3px solid #e0e0e0;
+  padding: 0px;
+  margin: 0px;
+ }
+
+.float-left {
+  float: left;
+ }
+
+ /*
+  *
+  * Main
+  *
+  */
+
+.main-img {
+  height: 100%;
+  margin: auto;
+  padding: 6px;
+}
+
+.divider {
+  border-bottom: 3px solid #e0e0e0;
+}
+
+/*
+ *
+ * Featured Work flex grid.
+ *
+ */
+
+.item-examples {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.item-box {
+  margin: auto;
+  width: 51%;
+}
+
+.item-img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+/*
+ *
+ * Media queries for responsive design
+ *
+ */
+
+@media only screen and (min-width:500px) {
+  .main-img {
+    width: 70%;
+  }
+
+  .item-box {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width:900px) {
+  body {
+    width: 900px;
+  }
+}
