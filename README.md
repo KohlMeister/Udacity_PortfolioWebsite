@@ -23,11 +23,6 @@ To get started, download the provided files within the repo.
 * Open index.html in an internet browser address bar.
 * Once webpage has loaded, click on featured works to be taken to the corresponding GitHub repo.
 
-```
-Be aware - If the .html file defaults to open in another program than an internet browser, the .html file that gets created by entertainment_center.py
-can be opened directly with a specified internet browser.
-```
-
 ## Built With
 
 * Atom 1.21.2 (https://atom.io/)
